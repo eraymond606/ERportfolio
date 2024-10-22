@@ -94,10 +94,6 @@
         e.preventDefault();
         result.textContent = 'Submitting form...';
 
-        // Client-side validation
-        if (securityAnswer.value.trim().toLowerCase() !== 'biden') {
-          alert('Please answer the security question correctly.');
-          return;
         }
         // Validate email
         const emailInput = document.getElementById('email');
